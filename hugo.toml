@@ -2,3 +2,24 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'terminal'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+
+[menu]
+  [[menu.main]]
+    name = "Gallery"
+    url = "/gallery"
+    weight = 1
+
+  [[menu.main]]
+    name = "TODO"
+    url = "/about/"
+    weight = 2
+
+[params]
+  centerTheme = true
+
+[params.logo]
+logoText = "Remi Page"
