@@ -1,0 +1,13 @@
+:root {
+  --font-size: 1.6rem
+}
+
+body {
+  font-family: "Medodica", monospace;
+  font-weight: 100;
+  line-height: 1;
+}
+
+ul {
+  list-style: square outside;
+}

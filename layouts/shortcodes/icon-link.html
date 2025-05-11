@@ -1,0 +1,5 @@
+<div style="display: flex; gap: 20px">
+    {{ range .Page.Params.iconLink }}
+    	<img style="cursor: pointer;" onclick="window.location.href = {{ .url }}" src="{{ .icon }}" width="200px">
+    {{ end }}
+</div>

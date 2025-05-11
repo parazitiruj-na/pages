@@ -60,7 +60,7 @@
 
 
 
-
+<link rel="stylesheet" href="http://localhost:1313/style.css">
 
 
 <link rel="shortcut icon" href="http://localhost:1313/favicon.png">
@@ -96,7 +96,7 @@
 
 
 
-
+<link rel="stylesheet" href="/css/custom_fonts.css">
 
 
 </head>
@@ -126,7 +126,7 @@
         
       
         
-          <li><a href="/about/">TODO</a></li>
+          <li><a href="/movies/">Favorite Movies</a></li>
         
       
       
@@ -147,7 +147,7 @@
         
       
         
-          <li><a href="/about/" >TODO</a></li>
+          <li><a href="/movies/" >Favorite Movies</a></li>
         
       
     
@@ -166,31 +166,100 @@
 	<div>
 		<img src="page_avatar2.png" width="260px">
 	</div>
-	<div>
-		<h2 style="margin-bottom: 5px">Bio</h2>
-		<div>
-			<label>Age: 28</label><br>
-			<label>Sex: sexy</label><br>
-			<label>Pronouns: he/him</label><br>
-			<label>Love things:</label><br>
-			<ul style="margin-top: 0;">
-				<li>Banana</li>
-				<li>Marmelad</li>
-				<li>Animals</li>
-			</ul>
-			<label>Hate things:</label><br>
-			<ul style="margin-top: 0;">
-				<li>Plans</li>
-				<li>...</li>
-			</ul>
-		</div>
-	</div> 
+    <div>
+    	<h2 style="margin-bottom: 5px">Bio</h2>
+    	<div>
+            
+                
+                
+                    
+                		<label>Age: 28</label><br>
+                    
+                
+            
+                
+                
+                    
+                		<label>Ideology: Anarchism/neoanarchism 🔳</label><br>
+                    
+                
+            
+                
+                
+                    
+                		<label onmouseenter="showOrientation()" onmouseleave="hideOrientation()">Orientation:  </label><br>
+                    
+                
+            
+                
+                
+                    
+                		<label>Pronounce: He/him</label><br>
+                    
+                
+            
+                
+                
+                    
+                		<label>Sex: Sexy</label><br>
+                    
+                
+            
+                
+                
+                    
+                		<label>State_of_place: World</label><br>
+                    
+                
+            
+        </div>
+    </div> 
 </div>
-<h1>This Is Remi Fo Site!</h1>
+<script>
+    function showOrientation() {
+        const style = `
+            background: url(https://img.huffingtonpost.com/asset/5c9318d42a0000d6024e4393.jpeg);
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            z-index: -1;
+            top: 0;
+        `
+        const LGBTbanner = document.createElement('div');
+        LGBTbanner.setAttribute('id', 'or_banner');
+        LGBTbanner.setAttribute('style', style);
+        document.body.appendChild(LGBTbanner);
+    }
+
+    function hideOrientation() {
+        const banner = document.getElementById('or_banner');
+        banner.remove();
+    }
+</script>
+
+<h1 id="skills">Skills</h1>
 <hr>
-<div style="display: flex">
-	<img onclick="window.location.href = 'https://github.com/AntKazakovv/'" src="Github_button.jpg" width="200px">
+<ul>
+<li><a href="/programming">Programming</a></li>
+<li>3D Printering</li>
+<li>Drawing</li>
+<li>Skateboarding</li>
+</ul>
+<h1 id="my-resources">My Resources</h1>
+<hr>
+<div style="display: flex; gap: 20px">
+    
+    	<img style="cursor: pointer;" onclick="window.location.href = &#34;https://github.com/AntKazakovv/&#34;" src="Github_button.png" width="200px">
+    
+    	<img style="cursor: pointer;" onclick="window.location.href = &#34;https://pin.it/2MeM3JGqR&#34;" src="pinterest_button.jpg" width="200px">
+    
+    	<img style="cursor: pointer;" onclick="window.location.href = &#34;https://pin.it/2MeM3JGqR&#34;" src="insta_button.jpg" width="200px">
+    
+    	<img style="cursor: pointer;" onclick="window.location.href = &#34;https://pin.it/2MeM3JGqR&#34;" src="telegram.jpg" width="200px">
+    
 </div>
+
 
     </div>
   

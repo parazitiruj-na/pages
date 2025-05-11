@@ -14,8 +14,8 @@ unsafe = true
     weight = 1
 
   [[menu.main]]
-    name = "TODO"
-    url = "/about/"
+    name = "Favorite Movies"
+    url = "/movies/"
     weight = 2
 
 [params]

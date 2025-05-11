@@ -1,0 +1,11 @@
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Medodica;
+  font-style: regular;
+  src: url(../fonts/medodica/MedodicaRegular.otf);
+}
