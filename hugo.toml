@@ -1,6 +1,6 @@
 baseURL = 'https://antkazakovv.github.io/hugo-personal-page/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Remi Page'
 theme = 'terminal'
 
 [markup.goldmark.renderer]
@@ -21,7 +21,7 @@ unsafe = true
   centerTheme = true
 
 [params.logo]
-logoText = "Remi Page"
+logoText = "$>_ REMI"
 
 [caches]
   [caches.images]
