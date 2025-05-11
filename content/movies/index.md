@@ -4,12 +4,12 @@ title = "My Favorites Movie And Animation"
 [[params.item]]
 name = "Mr. Robot"
 type = "Serial"
-image = "/movies/mr_robot.jpg"
+image = "movies/mr_robot.jpg"
 
 [[params.item]]
 name = "Mob Psycho 100"
 type = "Anime"
-image = "/movies/mob_100.jpg"
+image = "movies/mob_100.jpg"
 
 [[params.item]]
 name = "One Punch Man"
