@@ -14,22 +14,22 @@ image = "movies/mob_100.jpg"
 [[params.item]]
 name = "One Punch Man"
 type = "Anime"
-image = "/movies/one_punch_man.png"
+image = "movies/one_punch_man.png"
 
 [[params.item]]
 name = "Chronicle"
 type = "Movie"
-image = "/movies/chronicle.jpg"
+image = "movies/chronicle.jpg"
 
 [[params.item]]
 name = "Darker than Black"
 type = "Anime"
-image = "/movies/darker_than_black.jpg"
+image = "movies/darker_than_black.jpg"
 
 [[params.item]]
 name = "Stain's gate"
 type = "Anime"
-image = "/movies/stains_gate.jpg"
+image = "movies/stains_gate.jpg"
 +++
 
 {{< movie >}}
