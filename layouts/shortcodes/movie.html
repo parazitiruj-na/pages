@@ -10,7 +10,7 @@
                     <b style="font-size: 1.2em">{{ .name }}</b> | {{ .type }}
                 </a>
             </div>
-            <img src="{{ .image | absURL }}" alt="{{ .name }}">
+            <img src="{{ .image | relURL }}" alt="{{ .name }}">
         </div>
     {{ end }}
 </div>

@@ -2,7 +2,7 @@
   {{ with .Resources.ByType "image" }}
     <div class="gallery">
       {{ range . }}
-        <img src="{{ .RelPermalink }}" alt="{{ .Name }}">
+        <img src="{{ .RelPermalink | relURL }}" alt="{{ .Name }}">
       {{ end }}
     </div>
   {{ end }}

@@ -6,7 +6,6 @@ theme = 'terminal'
 [markup.goldmark.renderer]
 unsafe = true
 
-
 [menu]
   [[menu.main]]
     name = "Gallery"
