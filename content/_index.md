@@ -33,11 +33,14 @@ icon = "telegram.jpg"
 
 # Skills
 ---
-- [Programming](/programming)
+- [Programming](programming)
 - 3D Printering
 - Drawing
 - Skateboarding
 
-# My Resources
+# [JUST BUBA!!!](buba)
+![Buba](./buba.jpg)
+
+# My Social
 ---
 {{< icon-link >}}
