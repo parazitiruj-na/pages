@@ -5,12 +5,12 @@
             <div style="margin-top: 30px; ">
                 <a
                     style="text-decoration: none; color: var(--foreground)"
-                    href="{{ $search }}{{ replace .name ' ' '+'}}"
+                    href="{{ $search }}}{{ replace .name ' ' '+'}}"
                 >
                     <b style="font-size: 1.2em">{{ .name }}</b> | {{ .type }}
                 </a>
             </div>
-            <img src="{{ .image }}" alt="{{ .name }}">
+            <img src="{{ .image | absURL }}" alt="{{ .name }}">
         </div>
     {{ end }}
 </div>
