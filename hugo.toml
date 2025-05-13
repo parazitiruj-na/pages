@@ -1,4 +1,4 @@
-baseURL = 'http://0.0.0.0/personal-page/'
+baseURL = 'https://antkazakovv.github.io/personal-page/'
 languageCode = 'en-us'
 title = 'Remi Page'
 theme = 'terminal'
