@@ -17,6 +17,11 @@ unsafe = true
     url = "/movies/"
     weight = 2
 
+  [[menu.main]]
+    name = "IT Place"
+    url = "/it-place/"
+    weight = 3
+
 [params]
   centerTheme = true
 
