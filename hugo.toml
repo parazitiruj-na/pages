@@ -1,4 +1,4 @@
-baseURL = 'https://antkazakovv.github.io/personal-page/'
+baseURL = 'http://0.0.0.0/personal-page/'
 languageCode = 'en-us'
 title = 'Remi Page'
 theme = 'terminal'
@@ -16,6 +16,11 @@ unsafe = true
     name = "Favorite Movies"
     url = "/movies/"
     weight = 2
+
+  [[menu.main]]
+    name = "IT Place"
+    url = "/it-place/"
+    weight = 3
 
 [params]
   centerTheme = true
