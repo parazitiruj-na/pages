@@ -1,7 +1,7 @@
 # IT Place
 ![](./fsociety.jpg)
 
-## My Rust Tools!
+## Whats in my bag? My Daily Rust Tools!
 **[Zellij](https://zellij.dev/)** -- Like a Tmux but modern
 
 **[Yazi](https://yazi-rs.github.io/)** -- Coolest and fast file manager
@@ -13,6 +13,8 @@
 **[Serpl](https://github.com/yassinebridi/serpl)** -- Search and replace text like a VS Code
 
 **[Ghostty](https://ghostty.org/)** -- Terminal
+
+**[Justfile]()** — Like makefiles, but more powerful
 
 # OS ---> VOID LINUX!
 ```
@@ -35,3 +37,13 @@
              ~|Invnvnvvnvvvnnv}+`              
                 -~"|{*l}*|""~     
 ```
+
+## Programming Languages That I Use
+- TypeScript/JavaScript
+- Python
+  
+## Programming Languages That I Like
+- Erlang
+- Lisp
+- F#/OCaml
+
