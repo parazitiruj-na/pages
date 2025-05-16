@@ -30,6 +30,7 @@ unsafe = true
 
 [params]
   centerTheme = true
+  contentTypeName = "postss"
 
 [params.logo]
 logoText = "$>_ REMI"
