@@ -22,6 +22,12 @@ unsafe = true
     url = "/it-place/"
     weight = 3
 
+  [[menu.main]]
+    name = "My Anarchist Ideology"
+    url = "/posts/my-anarchist-ideology"
+    weight = 4
+    
+
 [params]
   centerTheme = true
 
