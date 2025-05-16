@@ -4,8 +4,7 @@ draft = false
 title = 'Main'
 
 [params.qualities]
-age = 28
-sex = "sexy"
+nickname = "Remi or An"
 pronounce = "he/him"
 ideology = "anarchism/neoanarchism 🔳"
 state_Of_Place = "World"
@@ -36,9 +35,10 @@ icon = "telegram.jpg"
 - [Programming](programming)
 - 3D Printering
 - Drawing
-- Skateboarding
+- Sound Making
+- Lomographer
 
-# [JUST BUBA!!!](buba)
+# [Just my cat BUBA!](buba)
 ![Buba](./buba.jpg)
 
 # My Social
