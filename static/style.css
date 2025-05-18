@@ -11,3 +11,16 @@ body {
 ul {
   list-style: square outside;
 }
+
+.image-list {
+  column-count: 2;
+  /* Количество колонок */
+  column-gap: 1em;
+  /* Расстояние между колонками */
+}
+
+.image-list img {
+  width: 100%;
+  display: block;
+  margin-bottom: 1em;
+}
