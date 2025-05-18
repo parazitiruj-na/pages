@@ -10,6 +10,9 @@ ideology = "anarchism/neoanarchism 🔳"
 state_Of_Place = "World"
 orientation = " "
 
+[params.avatar]
+name = "page_avatar3.png"
+
 [[params.iconLink]]
 url = "https://github.com/AntKazakovv/"
 icon = "Github_button.png"
