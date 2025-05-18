@@ -1,6 +1,7 @@
+
 {{ define "main" }}
   {{ with .Resources.ByType "image" }}
-    <div class="gallery">
+    <div class="gallery image-list">
       {{ range . }}
         <img src="{{ .RelPermalink | relURL }}" alt="{{ .Name }}">
       {{ end }}
