@@ -1,4 +1,4 @@
-baseURL = 'http://0.0.0.0/personal-page/'
+baseURL = 'https://antkazakovv.github.io/personal-page/'
 languageCode = 'en-us'
 title = 'Remi Page'
 theme = 'terminal'
@@ -22,8 +22,15 @@ unsafe = true
     url = "/it-place/"
     weight = 3
 
+  [[menu.main]]
+    name = "My Anarchist Ideology"
+    url = "/posts/my-anarchist-ideology"
+    weight = 4
+    
+
 [params]
   centerTheme = true
+  contentTypeName = "postss"
 
 [params.logo]
 logoText = "$>_ REMI"
