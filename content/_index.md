@@ -29,6 +29,10 @@ icon = "insta_button.jpg"
 url = "https://pin.it/2MeM3JGqR"
 icon = "telegram.jpg"
 
+[[params.iconLink]]
+url = "https://kolektiva.social/@an_re"
+icon = "https://greekreporter.com/wp-content/uploads/2022/11/Mastodon_logotype_simple_new_hue.svg_.png"
+
 +++
 
 {{< qualities >}}
