@@ -1,3 +1,9 @@
++++
+[params]
+background = "black"
+
++++
+
 # IT Place
 ![](./fsociety.jpg)
 
