@@ -6,7 +6,7 @@
       {{ end }}
       {{ with .Resources.ByType "image" }}
         {{ range . }}
-          <img src="{{ .RelPermalink | relURL }}" alt="{{ .Name }}">
+          <!-- <img src="{{ .RelPermalink | relURL }}" alt="{{ .Name }}"> -->
         {{ end }}
       {{ end }}      
     </div>
