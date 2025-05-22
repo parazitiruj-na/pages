@@ -7,13 +7,13 @@ url = "https://ik.imagekit.io/ubp64igya/photo_2025-05-20_17-09-40.jpg?updatedAt=
 url = "https://ik.imagekit.io/ubp64igya/gallery/page_avatar2.png"
 
 [[params.image]]
-url = "https://ik.imagekit.io/ubp64igya/gallery/1000014450 (1).jpg"
+url = "https://ik.imagekit.io/ubp64igya/gallery/1000014450%20(1).jpg"
 
 [[params.image]]
-url = "https://ik.imagekit.io/ubp64igya/gallery/1000015232 (2).jpg"
+url = "https://ik.imagekit.io/ubp64igya/gallery/1000015232%20(2).jpg"
 
 [[params.image]]
-url = "https://ik.imagekit.io/ubp64igya/gallery/1000015975 (2).dng"
+url = "https://ik.imagekit.io/ubp64igya/gallery/1000015975%20(2).dng"
 
 [[params.image]]
 url = "https://ik.imagekit.io/ubp64igya/gallery/1000015990.dng"
@@ -46,7 +46,7 @@ url = "https://ik.imagekit.io/ubp64igya/gallery/1000016289.dng"
 url = "https://ik.imagekit.io/ubp64igya/gallery/1000016293.dng"
 
 [[params.image]]
-url = "https://ik.imagekit.io/ubp64igya/gallery/1000016293 (1).dng"
+url = "https://ik.imagekit.io/ubp64igya/gallery/1000016293%20(1).dng"
 
 [[params.image]]
 url = "https://ik.imagekit.io/ubp64igya/gallery/1000016295.dng"
@@ -55,25 +55,25 @@ url = "https://ik.imagekit.io/ubp64igya/gallery/1000016295.dng"
 url = "https://ik.imagekit.io/ubp64igya/gallery/1000016303.dng"
 
 [[params.image]]
-url = "https://ik.imagekit.io/ubp64igya/gallery/1000016482 (1).dng"
+url = "https://ik.imagekit.io/ubp64igya/gallery/1000016482%20(1).dng"
 
 [[params.image]]
 url = "https://ik.imagekit.io/ubp64igya/gallery/1000017234.jpg"
 
 [[params.image]]
-url = "https://ik.imagekit.io/ubp64igya/gallery/1000017445 (1).dng"
+url = "https://ik.imagekit.io/ubp64igya/gallery/1000017445%20(1).dng"
 
 [[params.image]]
-url = "https://ik.imagekit.io/ubp64igya/gallery/1000017605 (1).jpg"
+url = "https://ik.imagekit.io/ubp64igya/gallery/1000017605%20(1).jpg"
 
 [[params.image]]
 url = "https://ik.imagekit.io/ubp64igya/gallery/1000017726.dng"
 
 [[params.image]]
-url = "https://ik.imagekit.io/ubp64igya/gallery/1000017773 (1).jpg"
+url = "https://ik.imagekit.io/ubp64igya/gallery/1000017773%20(1).jpg"
 
 [[params.image]]
-url = "https://ik.imagekit.io/ubp64igya/gallery/1000017777 (1).jpg"
+url = "https://ik.imagekit.io/ubp64igya/gallery/1000017777%20(1).jpg"
 
 [[params.image]]
 url = "https://ik.imagekit.io/ubp64igya/gallery/1000017801.dng"
@@ -88,7 +88,7 @@ url = "https://ik.imagekit.io/ubp64igya/gallery/1000017919.dng"
 url = "https://ik.imagekit.io/ubp64igya/gallery/1000017984.dng"
 
 [[params.image]]
-url = "https://ik.imagekit.io/ubp64igya/gallery/1000018278 (2).dng"
+url = "https://ik.imagekit.io/ubp64igya/gallery/1000018278%20(2).dng"
 
 [[params.image]]
 url = "https://ik.imagekit.io/ubp64igya/gallery/1000018291.jpg"
