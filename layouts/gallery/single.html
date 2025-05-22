@@ -1,5 +1,8 @@
 
 {{ define "main" }}
+  {{ range .Page.Params.image }}
+    <img src="{{ .url | relURL }}" alt="">
+  {{ end }}
   {{ with .Resources.ByType "image" }}
     <div class="gallery image-list">
       {{ range . }}
