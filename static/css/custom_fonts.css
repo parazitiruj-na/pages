@@ -9,3 +9,33 @@
   font-style: regular;
   src: url(../fonts/medodica/MedodicaRegular.otf);
 }
+
+@font-face {
+  font-family: Badeen;
+  font-style: regular;
+  src: url(../fonts/Badeen_Display/BadeenDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: Tiny5;
+  font-style: regular;
+  src: url(../fonts/Tiny5/Tiny5-Regular.ttf);
+}
+
+@font-face {
+  font-family: WDXL;
+  font-style: regular;
+  src: url(../fonts/WDXL_Lubrifont_TC/WDXLLubrifontTC-Regular.ttf);
+}
+
+.badeen-font {
+  font-family: "Badeen", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tiny-font {
+  font-family: "Tiny5", monospace;
+  font-weight: 400;
+  font-style: normal;
+}

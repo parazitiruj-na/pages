@@ -1,14 +1,6 @@
-
-{{ define "main" }}
-    <div class="gallery image-list">
-      {{ range .Page.Params.image }}
-        <img src="{{ .url | relURL }}" alt="">
-      {{ end }}
-      {{ with .Resources.ByType "image" }}
-        {{ range . }}
-          <!-- <img src="{{ .RelPermalink | relURL }}" alt="{{ .Name }}"> -->
-        {{ end }}
-      {{ end }}      
+{{ define "main"}}
+    <div style="color: #ea8bbd">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
     </div>
 {{ end }}
-

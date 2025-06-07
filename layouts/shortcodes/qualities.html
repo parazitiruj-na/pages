@@ -3,7 +3,9 @@
 		<img src="{{ .Page.Params.avatar.name}}" width="260px">
 	</div>
     <div>
-    	<h2 style="margin-bottom: 5px">Bio</h2>
+        {{ if .Page.Params.qualities }}
+        	<h2 style="margin-bottom: 5px">Bio</h2>
+        {{ end }}
     	<div>
             {{ range $category, $value := .Page.Params.qualities }}
                 {{ $type := printf "%T" $value }}

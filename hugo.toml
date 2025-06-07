@@ -1,40 +1,91 @@
-baseURL = 'https://antkazakovv.github.io/personal-page/'
-languageCode = 'en-us'
+# baseURL = 'https://antkazakovv.github.io/personal-page/'
+baseURL = 'http://localhost/'
 title = 'Remi Page'
 theme = 'terminal'
+defaultContentLanguage = 'en'
 
 [markup.goldmark.renderer]
 unsafe = true
 
-[menu]
-  [[menu.main]]
-    name = "Gallery"
-    url = "/gallery"
-    weight = 1
-
-  [[menu.main]]
-    name = "Favorite Movies"
-    url = "/movies/"
-    weight = 2
-
-  [[menu.main]]
-    name = "IT Place"
-    url = "/it-place/"
-    weight = 3
-
-  [[menu.main]]
-    name = "My Anarchist Ideology"
-    url = "/posts/my-anarchist-ideology"
-    weight = 4
-    
-
 [params]
   centerTheme = true
-  contentTypeName = "postss"
-
-[params.logo]
-logoText = "$>_ REMI"
+  contentTypeName = "posts"
+  showLanguageSelector = true
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[languages]
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = "English"
+    menuMore = "Show more"
+    readMore = "Read more"
+    contentDir = "content/en"
+    
+    [languages.en.params.logo]
+      logoText = "$>_ REMI"
+
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        identifier = "gallery"
+        name = "Gallery"
+        pageRef = "/gallery"
+        weight = 10
+
+      [[languages.en.menus.main]]
+        name = "Favorite Movies"
+        pageRef = "/movies/"
+        weight = 20
+
+      [[languages.en.menus.main]]
+        name = "IT Place"
+        pageRef = "/it-place/"
+        weight = 30
+
+      [[languages.en.menus.main]]
+        name = "Posts"
+        pageRef = "/posts/"
+        weight = 40
+
+      [[languages.en.menus.main]]
+        name = "Cameras"
+        pageRef = "/cameras/"
+        weight = 50
+
+  [languages.ru]
+    languageCode = 'ru-RU'
+    languageName = "Русский"
+    menuMore = "Еще"
+    readMore = "Читать далее"
+    contentDir = "content/ru"
+
+    [languages.ru.params.logo]
+      logoText = "$>_ REMI"
+
+    [languages.ru.menu]
+      [[languages.ru.menu.main]]
+        name = "Галерея"
+        url = "/gallery"
+        weight = 10
+
+      [[languages.ru.menu.main]]
+        name = "Любимые фильмы"
+        url = "/movies/"
+        weight = 20
+
+      [[languages.ru.menu.main]]
+        name = "IT Уголок"
+        url = "/it-place/"
+        weight = 30
+
+      [[languages.ru.menu.main]]
+        name = "Посты"
+        url = "/posts/"
+        weight = 40
+      
+      [[languages.ru.menus.main]]
+        name = "Фотики"
+        pageRef = "/cameras/"
+        weight = 50

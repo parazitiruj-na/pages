@@ -1,0 +1,14 @@
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px">
+    {{ range .Page.Params.submenus }}
+        <div>
+            {{ $url := urls.JoinPath "gallery" .name }}
+            <a href="{{ $url | relURL }}">
+                <h3>{{ .name | strings.FirstUpper }}</h3>
+                <img 
+                    style="width: 100%; height: 100%; object-fit: cover;"
+                    src={{.icon}}>
+                </img>
+            </a>
+        </div>
+    {{ end }}
+</div>
