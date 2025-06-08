@@ -1,0 +1,14 @@
+.stickerboard {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr 1fr;
+}
+
+.sticker {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+}
+
+.border {
+  border: 10px solid var(--accent);
+}

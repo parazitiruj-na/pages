@@ -1,0 +1,25 @@
+{{ $avatarImg := (resources.Get "images/page_avatar3.png").RelPermalink }}
+{{ $anarchaQueer := "https://ik.imagekit.io/ubp64igya/gallery/queer_anarchy___anarcha_queer_by_pride_flags_dac0xx7-pre.jpg" }}
+{{ $lgbt := "https://static.vecteezy.com/system/resources/previews/011/156/092/non_2x/new-updated-lgbtq-pride-flag-intersex-inclusive-progress-pride-flag-banner-flag-for-lgbt-or-lgbtqia-pride-vector.jpg" }}
+{{ $peace := "https://pngimg.com/uploads/peace_symbol/peace_symbol_PNG25.png" }}
+{{ $anarchy := "https://wallpapercave.com/wp/rSTV6GH.jpg" }}
+{{ $paintsGirl := (resources.Get "images/random.jpg").RelPermalink }}
+{{ $stoner := (resources.Get "images/Horny Stoner.jpg").RelPermalink }}
+{{ $camera := (resources.Get "images/sticker_minolta.webp").RelPermalink }}
+{{ $sonic := (resources.Get "images/sticker_sonic.webp").RelPermalink }}
+{{ $anarchy := (resources.Get "images/sticker_anarchy.webp").RelPermalink }}
+{{ $bong := (resources.Get "images/sticker_bong.webp").RelPermalink }}
+{{ $skate := (resources.Get "images/sticker_skate.webp").RelPermalink }}
+{{ $lgbt := (resources.Get "images/sticker_lgbt.webp").RelPermalink }}
+
+<div class="stickerboard">
+    <img class="sticker border" width="300px" src="{{ $avatarImg }}" alt="">
+    <div>
+        <img class="sticker" width="200px" src="{{ $camera }}" alt="">
+        <img class="sticker" width="150px" src="{{ $sonic }}" alt="">
+    </div>
+    <img class="sticker" width="210px" src="{{ $anarchy }}" alt="">
+    <img class="sticker" width="300px" src="{{ $bong }}" alt="">
+    <img class="sticker" width="300px" src="{{ $skate }}" alt="">
+    <img class="sticker" width="300px" src="{{ $lgbt }}" alt="">
+</div>

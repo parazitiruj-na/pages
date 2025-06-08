@@ -108,7 +108,3 @@ url = "https://ik.imagekit.io/ubp64igya/gallery/PXL_20230713_180844868-01.jpeg"
 [[params.image]]
 url = "https://ik.imagekit.io/ubp64igya/gallery/PXL_20241116_111129383.RAW-02.ORIGINAL.dng"
 +++
-
-# Gallery !!
-My digital and film photos
-

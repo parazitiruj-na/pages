@@ -1,5 +1,6 @@
 +++
 title = "My Favorites Movie And Animation"
+background = "#5c5086"
 
 [[params.item]]
 name = "Mr. Robot"

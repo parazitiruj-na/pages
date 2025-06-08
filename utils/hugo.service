@@ -1,0 +1,13 @@
+[Unit]
+Description=Hugo Development Server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/your_username/your-hugo-site
+ExecStart=/usr/local/bin/hugo server --bind 0.0.0.0 --baseURL http://0.0.0.0:1313 --appendPort=false
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
