@@ -1,5 +1,5 @@
 # baseURL = 'https://antkazakovv.github.io/personal-page/'
-baseURL = 'http://localhost/'
+baseURL = 'http://100.121.108.106/'
 title = 'Remi Page'
 theme = 'terminal'
 defaultContentLanguage = 'en'
