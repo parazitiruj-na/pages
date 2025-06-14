@@ -64,7 +64,6 @@ icon = "https://greekreporter.com/wp-content/uploads/2022/11/Mastodon_logotype_s
 {{< sticker >}}
 
 # Hobbies
----
 - [Programming](programming)
 - 3D Printering [Creality Ender 3 V3]
 - Drawing [Sketchbook]
@@ -72,13 +71,16 @@ icon = "https://greekreporter.com/wp-content/uploads/2022/11/Mastodon_logotype_s
 - Lomography [[Cameras](cameras)]
 
 # Cool links
----
 - [Marginalia Search](https://marginalia-search.com/) -- searching engine for indieweb sites
 - [LoveSick.cafe](https://lovesick.cafe/)
 
 
-# [Just my cat BUBA!](buba)
-<img width="400px" src="./buba.jpg"></img>
+<!-- <img width="400px" src="./buba.jpg"></img> -->
+<div style="display: flex">
+  {{< image-resource "sticker_buba1.webp" 200 >}}
+  {{< image-resource "sticker_buba2.webp" 200 >}}
+  {{< image-resource "sticker_buba3.webp" 200 >}}
+</div>
 
 # Social
 ---

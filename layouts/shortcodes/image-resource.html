@@ -1,2 +1,3 @@
 {{ $image := resources.Get (print "images/" (.Get 0)) }}
-<img src="{{ $image.RelPermalink }}">
+{{ $width := .Get 1 }}
+<img class="sticker"  width="{{$width}}" src="{{ $image.RelPermalink }}">
