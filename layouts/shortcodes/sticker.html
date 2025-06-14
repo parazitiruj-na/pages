@@ -11,6 +11,7 @@
 {{ $bong := (resources.Get "images/sticker_bong.webp").RelPermalink }}
 {{ $skate := (resources.Get "images/sticker_skate.webp").RelPermalink }}
 {{ $lgbt := (resources.Get "images/sticker_lgbt.webp").RelPermalink }}
+{{ $queer :=  (resources.Get "images/sticker_queer.webp").RelPermalink }}
 
 <div class="stickerboard">
     <img class="sticker border" width="300px" src="{{ $avatarImg }}" alt="">
@@ -18,8 +19,11 @@
         <img class="sticker" width="200px" src="{{ $camera }}" alt="">
         <img class="sticker" width="150px" src="{{ $sonic }}" alt="">
     </div>
-    <img class="sticker" width="210px" src="{{ $anarchy }}" alt="">
-    <img class="sticker" width="300px" src="{{ $bong }}" alt="">
+    <div>
+        <img class="sticker" width="200px" src="{{ $anarchy }}" alt="">
+        <img class="sticker" width="170px" src="{{ $queer }}" alt="">
+    </div>
+    <img class="sticker" width="280px" src="{{ $bong }}" alt="">
     <img class="sticker" width="300px" src="{{ $skate }}" alt="">
-    <img class="sticker" width="300px" src="{{ $lgbt }}" alt="">
+    <img class="sticker sticker-border" width="150px" src="{{ $paintsGirl}}" alt="">
 </div>
