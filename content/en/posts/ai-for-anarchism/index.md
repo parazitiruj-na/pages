@@ -9,10 +9,10 @@ But what if we could escape this paradigm by delegating key management and coord
 An AI with a transparent architecture, open-source logic, and verifiable decision-making processes could serve as a decentralized coordinator. In this role, it would not be a dictator or a leader, but rather a procedural executor of clearly defined principles. This is not “rule by AI,” but rather rule by rules—implemented automatically and equally for all.
 
 Such an approach offers several clear advantages:
-	•	Minimization of the human factor: AI does not seek power, cannot be bribed, holds no grudges, and does not conspire. It executes.
-	•	Transparency and verifiability: All actions can be logged, logic verified, and decisions explained.
-	•	Scalability: AI can coordinate processes in large communities where human oversight becomes inefficient or unreliable.
-	•	Adaptability: With built-in update mechanisms, algorithms can evolve alongside changing conditions without undermining foundational principles.
+- Minimization of the human factor: AI does not seek power, cannot be bribed, holds no grudges, and does not conspire. It executes.
+- Transparency and verifiability: All actions can be logged, logic verified, and decisions explained.
+- Scalability: AI can coordinate processes in large communities where human oversight becomes inefficient or unreliable.
+- Adaptability: With built-in update mechanisms, algorithms can evolve alongside changing conditions without undermining foundational principles.
 
 Naturally, this raises difficult questions: Who defines the initial rules? How can we prevent covert influence during the training process? How do we ensure resistance to manipulation or hacking? These are not arguments against the idea—but rather emphasize the need for rigorous ethical and technical safeguards.
 
