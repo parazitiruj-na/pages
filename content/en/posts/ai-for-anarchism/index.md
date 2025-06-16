@@ -1,4 +1,4 @@
-Artificial Intelligence as a Tool for Coordination and Decision-Making in Decentralized Communities
+# Artificial Intelligence as a Tool for Coordination and Decision-Making in Decentralized Communities
 
 The idea I want to elaborate on here was suggested by a user who had been reflecting on a concept proposed by biologist Alexander Panchin in the context of his “scientific religion.” Panchin proposed a model with no hierarchy, full decentralization, and—most notably—delegated the writing of its manifesto to an artificial intelligence. This inspired a broader line of thought on the potential of AI in coordination and decision-making systems, especially where human factors often lead to dysfunction.
 
